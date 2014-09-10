@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C# Express 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckLowRates", "Chapter 3\CheckLowRates.csproj", "{24FE9DBA-98DD-4300-94AF-2A8FCBA247EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckLowAndHighRates", "CheckLowAndHighRates\CheckLowAndHighRates.csproj", "{6FD0EBD2-8EF5-409D-AF4B-1A343D769116}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Furniture", "Furniture\Furniture.csproj", "{7D1ABC93-B702-4F58-AC9A-7461D086F622}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{24FE9DBA-98DD-4300-94AF-2A8FCBA247EB}.Debug|x86.ActiveCfg = Debug|x86
+		{24FE9DBA-98DD-4300-94AF-2A8FCBA247EB}.Debug|x86.Build.0 = Debug|x86
+		{24FE9DBA-98DD-4300-94AF-2A8FCBA247EB}.Release|x86.ActiveCfg = Release|x86
+		{24FE9DBA-98DD-4300-94AF-2A8FCBA247EB}.Release|x86.Build.0 = Release|x86
+		{6FD0EBD2-8EF5-409D-AF4B-1A343D769116}.Debug|x86.ActiveCfg = Debug|x86
+		{6FD0EBD2-8EF5-409D-AF4B-1A343D769116}.Debug|x86.Build.0 = Debug|x86
+		{6FD0EBD2-8EF5-409D-AF4B-1A343D769116}.Release|x86.ActiveCfg = Release|x86
+		{6FD0EBD2-8EF5-409D-AF4B-1A343D769116}.Release|x86.Build.0 = Release|x86
+		{7D1ABC93-B702-4F58-AC9A-7461D086F622}.Debug|x86.ActiveCfg = Debug|x86
+		{7D1ABC93-B702-4F58-AC9A-7461D086F622}.Debug|x86.Build.0 = Debug|x86
+		{7D1ABC93-B702-4F58-AC9A-7461D086F622}.Release|x86.ActiveCfg = Release|x86
+		{7D1ABC93-B702-4F58-AC9A-7461D086F622}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

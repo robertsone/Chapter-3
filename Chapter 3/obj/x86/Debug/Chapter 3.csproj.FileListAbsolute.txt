@@ -1,0 +1,2 @@
+C:\Users\eahscs\Documents\GitHub\Chapter 3\Chapter 3\obj\x86\Debug\Chapter 3.exe
+C:\Users\eahscs\Documents\GitHub\Chapter 3\Chapter 3\obj\x86\Debug\Chapter 3.pdb
