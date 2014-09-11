@@ -2,3 +2,7 @@ C:\Users\eahscs\Documents\GitHub\Chapter 3\CheckLowAndHighRates\bin\Debug\CheckL
 C:\Users\eahscs\Documents\GitHub\Chapter 3\CheckLowAndHighRates\bin\Debug\CheckLowAndHighRates.pdb
 C:\Users\eahscs\Documents\GitHub\Chapter 3\CheckLowAndHighRates\obj\x86\Debug\CheckLowAndHighRates.exe
 C:\Users\eahscs\Documents\GitHub\Chapter 3\CheckLowAndHighRates\obj\x86\Debug\CheckLowAndHighRates.pdb
+C:\Users\eahscs\Documents\GitHub\Chapter-3\CheckLowAndHighRates\bin\Debug\CheckLowAndHighRates.exe
+C:\Users\eahscs\Documents\GitHub\Chapter-3\CheckLowAndHighRates\bin\Debug\CheckLowAndHighRates.pdb
+C:\Users\eahscs\Documents\GitHub\Chapter-3\CheckLowAndHighRates\obj\x86\Debug\CheckLowAndHighRates.exe
+C:\Users\eahscs\Documents\GitHub\Chapter-3\CheckLowAndHighRates\obj\x86\Debug\CheckLowAndHighRates.pdb
