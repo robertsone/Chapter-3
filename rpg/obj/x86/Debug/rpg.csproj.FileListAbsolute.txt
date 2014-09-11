@@ -1,0 +1,4 @@
+C:\Users\eahscs\Documents\GitHub\Chapter-3\rpg\bin\Debug\rpg.exe
+C:\Users\eahscs\Documents\GitHub\Chapter-3\rpg\bin\Debug\rpg.pdb
+C:\Users\eahscs\Documents\GitHub\Chapter-3\rpg\obj\x86\Debug\rpg.exe
+C:\Users\eahscs\Documents\GitHub\Chapter-3\rpg\obj\x86\Debug\rpg.pdb
