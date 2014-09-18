@@ -9,86 +9,58 @@ namespace rpg
     {
         static void Main(string[] args)
         {
-            string location = "Startup";
-
-            System.Console.Write("Name Your Player:");
-            string Name = System.Console.ReadLine();
-            string Player_Class = "";
-            string Responce = "";
-            List<String> Inventory = new List<String>();//0: weapon,1:armor
+            List<List<string>> Map = new List<List<string>>();
+            List<String> col = new List<String>();
+            int colNUM = 0;
+            int rowNUM = 0;
+            while (true)
             {
-                Inventory.Add("none");
-                Inventory.Add("none");
-                Inventory.Add("none");
-                Inventory.Add("none");
-                Inventory.Add("none");
-                Inventory.Add("none");
-                Inventory.Add("none");
-                Inventory.Add("none");
-                Inventory.Add("none");
-                Inventory.Add("none");
-                Inventory.Add("none");
-                Inventory.Add("none");
-                Inventory.Add("none");
-                Inventory.Add("none");
-                Inventory.Add("none");
-                Inventory.Add("none");
-                Inventory.Add("none");
-                Inventory.Add("none");
-                Inventory.Add("none");
-                Inventory.Add("none");
+                col.Add("_");
+                colNUM += 1;
+                if (colNUM >= 20)
+                {
+                    colNUM = 0;
+                    rowNUM += 1;
+                    Map.Add(col);
+                    if (rowNUM >= 70)
+                        break;
+                }
+
             }
+            int location = 0;
+            int location2 = 0;
             while (true)
             {
 
 
 
-                if (location == "Startup")
+                for (int num1 = 0; num1 <= 48; num1++)
                 {
-                    System.Console.WriteLine(Name + ", What class do you want?\nRouge\tMage\tKnight");
-                    Player_Class = System.Console.ReadLine().ToLower();
-                    if (Player_Class != "rouge" && Player_Class != "mage" && Player_Class != "knight\n")
-                        System.Console.WriteLine("Sorry this is not a class.\n");
-                    else
-                        location = "Weapon select";
+                    string row = "";
+                    for (int num2 = 0; num2 <= 48; num2++)
+                    {
+                        row += (Map[num1][num2]);
+                    }
+                    System.Console.WriteLine(row);
                 }
 
-
-
-                if (location == "Weapon select")
+                location += 1;
+                if (location >= 4000)
                 {
-                    if (Player_Class == "mage")
-                    {
-                        System.Console.WriteLine("Mages use staffs and wands, you may use other weapons,but they are less effective\nYou start with a wand.\n");
-                        Inventory[0]="wand";
-                    }
-                    if (Player_Class == "knight")
-                    {
-                        System.Console.WriteLine("Knights use swords, shields, and speers, you may use other weapons,but they are less effective\n You start with a sword.\n");
-                        Inventory[0] = "sword";
-                    }
-                    if (Player_Class == "rouge")
-                    {
-                        System.Console.WriteLine("Rouges use knives, poisons, and daggers, you may use other weapons,but they are less effective\nYou start with a knife.\n");
-                        Inventory[0] = "knife";
-                    }
-                    location = "Tutorial";
+                    location = 0;
+                    location2 += 1;
+                    Map[location2 - 1][25] = "_";
+                    Map[location2][25] = "@";
                 }
 
-
-                if (location == "Tutorial")
-                    System.Console.WriteLine("This is a text based adventure-rpg game, You may use the following commands:\ninventory\nhealth\nexp\nmana\nOr anything else told latter\n"); location = "Home";
-
-                if (location == "Home")
-                {
-                    System.Console.WriteLine("You are in youre house");
-                    Responce = System.Console.ReadLine();
-                }
 
 
 
 
             }
+
+
+
         }
     }
 }
